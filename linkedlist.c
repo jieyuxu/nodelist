@@ -50,10 +50,6 @@ int main(){
 	struct node *n2 = (struct node *)malloc(sizeof(n2));
 	struct node *n3 = (struct node *)malloc(sizeof(n3));
 	struct node *n4 = (struct node *)malloc(sizeof(n4));
-	// n1 = (struct node)malloc(sizeof(n1));
-	// n2 = (struct node)malloc(sizeof(n2));
-	// n3 = (struct node)malloc(sizeof(n3));
-	// n4 = (struct node)malloc(sizeof(n4));
 	n1->i = 5;
 	n1->next = n2;
 	n2->i = 10;
